@@ -1,4 +1,4 @@
-import { Some } from "./test2.js"
+import { Some } from "./Some.js"
 
 export class Some2 extends Some {
 }
