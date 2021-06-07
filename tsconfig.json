@@ -16,6 +16,7 @@
             "esnext",
             "dom"
         ],
+        "allowJs": true,
 
         "module"                    : "ESNext",
         "moduleResolution"          : "node",
@@ -24,25 +25,8 @@
     },
 
     "include" : [
-        "index.ts",
-        "nodejs.ts",
-        "browser.ts",
-        "bin/**/*.ts",
-        "build/**/*.ts",
+        "src/**/*.js",
         "src/**/*.ts",
         "src/**/*.tsx",
-        "tests/**/*.ts",
-        "tests/**/*.tsx",
-        "tests_nodejs/**/*.ts",
-        "tests_nodejs/**/*.tsx",
-        "tests_deno/**/*.ts",
-        "tests_deno/**/*.tsx",
-        "examples/**/*.ts"
     ],
-
-    "exclude" : [
-        "examples/deno",
-        "examples/nodejs",
-        "examples/browser"
-    ]
 }

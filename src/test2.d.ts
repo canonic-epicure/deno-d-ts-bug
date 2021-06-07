@@ -1,5 +1,5 @@
 import { Base } from "./class/Base.js"
 
-export declare class TestDescriptorPre2 extends Base {
+export declare class Some extends Base {
     new: typeof import("./class/Base.js").Base.new;
 }
